@@ -58,7 +58,7 @@
 | 1. Requirements Analysis (Phân tích yêu cầu) | Xác định yêu cầu của khách hàng       | Tài liệu yêu cầu (SRS)  |
 | 2. Design (Thiết kế)                         | Thiết kế kiến trúc, UI/UX, DB         | UI/UX, ERD, kế hoạch    |
 | 3. Implementation (Lập trình)                | Viết mã nguồn theo thiết kế           | Chạy được phần mềm      |
-| 4. Testing (Kiểm thử)                        | Đảm bỏa phần mềm chạy đúng và ổn định | Phần mềm ổn định        |
+| 4. Testing (Kiểm thử)                        | Đảm bảo phần mềm chạy đúng và ổn định | Phần mềm ổn định        |
 | 5. Deployment (Triển khai)                   | Đưa phần mềm vào sử dụng              | Người dùng sử dụng được |
 | 6. Maintenance (Bảo trì)                     | Sửa lỗi, cập nhật khi có yêu cầu mới  | Phần mềm lâu dài        |
 
