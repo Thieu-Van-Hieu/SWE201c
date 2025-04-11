@@ -27,6 +27,7 @@
     - [Lean Software Development](#5-lean-software-development)
 5. [Cách chọn mô hình và phương pháp phát triển phần mềm](#5-cach-chon-mo-hinh-va-phuong-phap-phat-trien-phan-mem)
 6. [Công cụ hỗ trợ phát triển phần mềm](#6-cong-cu-ho-tro-phat-trien-phan-mem)
+7. [Functional vs Non-Functional Requirements](#7-functional-vs-non-functional-requirements)
 
 <a name="1-software-development-processes-la-gi"></a>
 ## 1. Software Development Processes là gì?
@@ -406,3 +407,30 @@
 | Git, Github, GitLab     | Quản lý mã nguồn, version control  |
 | Figma, Lucidchart       | Thiết kế UI, sơ đồ hệ thống        |
 | Jenkins, GitHub Actions | Tự động hóa build, test, deploy    |
+
+<a name="7-functional-vs-non-functional-requirements"></a>
+## 7. Functional vs Non-Functional Requirements
+
+### Functional Requirements là gì?
+- Là các yêu cầu về chức năng, nhưng việc phần mềm cần làm
+- Nó trả lời cho câu hỏi "Phần mềm này cần làm gì?"
+
+### Non-Functional Requirements là gì?
+- Là các yêu cầu liên quan đến cách phần mềm hoạt động như chất lượng, hiệu suất, bảo mật, khả năng mở rộng, ...
+- Nó trả lời cho câu hỏi "Phần mềm này cần hoạt động như thế nào?"
+
+### So sánh
+|                         | Functional                        | Non-Functional                   |
+|-------------------------|-----------------------------------|----------------------------------|
+| Trả lời cho câu hỏi gì? | Hệ thống làm gì?                  | Hệ thống hoạt động như thế nào?  |
+| Dạng yêu cầu            | Tính năng cụ thể                  | Đặc tính chất lượng              |
+| Ví dụ                   | Đăng nhập, tìm kiếm               | Nhanh, ổn định, bảo mật, dễ dùng |
+| Kiểm thử như thế nào?   | Kiểm tra chức năng hoạt động đúng | Kiểm tra hiệu năng, bảo mật, ... |
+
+### Ví dụ
+| Loại yêu cầu   | Ví dụ                                               |
+|----------------|-----------------------------------------------------|
+| Functional     | Người dùng có thể thêm sản phẩm vào giỏ hàng        |
+| Functional     | hệ thống tính tiền tự động                          |
+| Non-Functional | Ứng dụng tải xong trong vòng 1 giây trên điện thoại |
+| Non-Functional | Giao diện hiển thị tốt trên mọi kích cỡ màn hình    |
